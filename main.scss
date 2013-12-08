@@ -1,0 +1,50 @@
+$height: 400;
+$vid-height: 150;
+$vid-border: 200;
+
+body{
+    margin:0px;
+}
+
+div{
+    position: relative;
+}
+video{
+  width:200px;
+  height:150px;
+}
+#wrapper{
+    background-color: blue;
+}
+#header{
+    margin-top: -20px;
+    background-color: red;
+    width: 100%;
+    height: 50px;    
+}
+#sidebar{
+    background-color: green;
+    height: 224 + $height +px;
+    width: 20%;
+    float: right;
+}
+#content{
+    width: 80%;
+    height: 224 + $height +px;
+    background-color: yellow;
+    float: left;
+}
+#center{
+    background-color: blue;
+    height:$height + px;
+}
+.wrap{
+    background-color: orange;
+}
+#top{
+    height:$vid-border + px;
+}
+#bottom{
+    height:$vid-border + px;
+}
+.vid-border{}
