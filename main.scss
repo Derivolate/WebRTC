@@ -47,4 +47,8 @@ video{
 #bottom{
     height:$vid-border + px;
 }
-.vid-border{}
+.vid-border{
+    width:$vid-border + px;
+    height:$vid-border + px;
+    float: left;
+}
