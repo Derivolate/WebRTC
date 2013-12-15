@@ -11,18 +11,27 @@
     <body>
         <div id="wrapper">
             <div id="header">
-                 <h1>WebRTC</h1>
+                <h1>WebRTC</h1>
             </div>
             <div id="content">
                 <div class="wrap" id="top">
-                    <div class='vid-border'><video id="vid0" muted="true" autoplay="" ></video><span>This is you</span></div>
-                    <div class='vid-border'><video id='vid1' autoplay=""></video><span></span></div>
+                    <div class='vid-border'>
+                        <video id="vid0" muted="true" autoplay="" ></video><span>This is you</span>
+                    </div>
+                    <div class='vid-border'>
+                        <video id='vid1' autoplay=""></video><span></span>
+                    </div>
                 </div>
                 <div id="center">
 
                 </div>
                 <div class="wrap" id="bottom">
-
+                    <div class="log">
+                        <strong>Connection status</strong>:
+                        <br>
+                        Socket open
+                        <br>
+                    </div>
                 </div>
             </div>
             <div id="sidebar">
@@ -31,7 +40,9 @@
                 <a href="#" id="make-call">Make call</a>
                 <br/>
                 <input type="text" placeholder="Call user id..." id="callto-id">
-                <p id='their-id'>You are in call with: <span id='their-id'></span></p>
+                <p id='their-id'>
+                    You are in call with: <span id='their-id'></span>
+                </p>
                 <a href="#" id="close-call">Close call</a>
             </div>
         </div>

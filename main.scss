@@ -45,7 +45,8 @@ video{
     height:$vid-border + px;
 }
 #bottom{
-    height:$vid-border + px;
+    //height:$vid-border + px;
+    height: auto;
 }
 .vid-border{
     width:$vid-border + px;
